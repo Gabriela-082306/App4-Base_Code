@@ -60,7 +60,13 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	resultMessage = "Based on your responses we suspect you're dealing with a UTI (Urinary Tract Infection). Please see a healthcare provider to confirm or deny these results further!" ; 
 
 	}
-	//
+	// If the STI count is higher, suggest STI
+	if (sti_count > uti_count) {
+	resultMessage = "Based on your responses we suspect you're dealing with an STI (Sexually Transmitted Infection). Please see a healthcare provider to confirm or deny these results further!" ;
+
+	}
+	
+	
 	
 	
 
