@@ -235,15 +235,41 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	<div id="content" class="w3-container">
 	<p>Are you noticing an unusual amount of discharge?</p>
-	<a href="#10" onclick="stiadd();" class="w3-btn w3-black">Yes</a>
-	<a href="#10" onclick="utiadd();" class="w3-btn w3-black">No</a>
+	<a href="#ten" onclick="stiadd();" class="w3-btn w3-black">Yes</a>
+	<a href="#ten" onclick="utiadd();" class="w3-btn w3-black">No</a>
 </div>
 
 	</div>
 
-<div
+<div class="page" id="ten"> 
+	<div id="header" class="w3-container w3-flat-carrot">
+		<h1>Question 10</h1>
+
+	</div>
+
+	<div id="content" class="w3-container">
+	<p>How long have you been experiencing these symptoms?</p>
+	<a href="#results" onclick="stiadd();" class="w3-btn w3-black">I've had them for awhile</a>
+	<a href="#results" onclick="utiadd();" class="w3-btn w3-black">They just appearance</a>
+</div>
 	
+	</div>
 	
+<div class="page" id="results" onload="displayResults()"> <!-- Results Page -->
+	<div class="w3-container w3-flat-carrot"> 
+		<h1>Results</h1> <!-- Title of page-->
+
+	</div>
+
+	<div id="content" class="w3-container">
+	<p id="resultMessage"></p> <!-- This will display the result message-->
+</div>
+	
+	</div>
+
+<footer class="w3-bottom w3-container w3-flat-carrot">
+	
+</footer>	
 	
 	
 	
