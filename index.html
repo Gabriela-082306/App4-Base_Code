@@ -109,7 +109,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
     max-width: 600px;
     min-width: 200px;
     min-height: 100px;
-    overflow: auto;
+    overflow: hidden;  /* Ensure the image doesn't overflow */
     resize: both;
     border: 2px solid #ccc;
     padding: 10px;
@@ -119,10 +119,11 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 }
 
 .resizable-container img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Allow the image to scale with the container */
+    height: auto; /* Maintain aspect ratio */
     display: block;
 }
+
 
 </style>
 
