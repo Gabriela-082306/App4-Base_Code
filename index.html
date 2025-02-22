@@ -29,7 +29,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 -->
 	
 <head> 
-	<title>Are you experiencing a UTI or an STI?</title>  
+	<title>Are you experiencing a UTI or an STI?</title>  <!--Title-->
 ]	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="stylesheet" href="w3.css">
@@ -109,7 +109,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
     max-width: 600px;
     min-width: 200px;
     min-height: 100px;
-    overflow: hidden;  /* Ensure the image doesn't overflow */
+    overflow: hidden;  
     resize: both;
     border: 2px solid #ccc;
     padding: 10px;
@@ -119,8 +119,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 }
 
 .resizable-container img {
-    width: 100%; /* Allow the image to scale with the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
     display: block;
 }
 
@@ -128,7 +128,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 </style>
 
 <body>
-<div id="content" class="w3-container">
+<div id="content" class="w3-container">   <!--My title page/disclaimers-->
 	<p>Have you been feeling a little funny down there? Starting to get a little worried... Well, worry no longer! Answer a couple of questions to find out if you're experiencing a UTI or an STI!</p>
 
 	<a href="#one" class="w3-btn w3-grey w3-round">Click Here</a>
@@ -151,7 +151,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 
-<div class="page" id="two">
+<div class="page" id="two"> <!--Page 2: Second question-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 2</h1>
 
@@ -159,13 +159,13 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	<div id="content" class="w3-container">
 	<p>Have you had sexual intercourse in the last 48 hours?</p>
-	<a href="#four" onclick="utiAdd();" class="w3-btn w3-black">Yes</a>
-	<a href="#three" onclick="stiAdd();" class="w3-btn w3-black">No</a>
+	<a href="#four" onclick="utiAdd();" class="w3-btn w3-black">Yes</a> <!--If user clicks this it would take them to question four-->
+	<a href="#three" onclick="stiAdd();" class="w3-btn w3-black">No</a> <!--If user clicks this it would take them to question three-->
 </div>
 
 	</div>
 
-<div class="page" id="three">
+<div class="page" id="three"> <!--Page 3: Third Question-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 3</h1>
 
@@ -173,13 +173,13 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	<div id="content" class="w3-container">
 	<p>Have you had sexual intercourse in the past seven days?</p>
-	<a href="#four" onclick="stiAdd();" class="w3-btn w3-black">Yes</a>
-	<a href="#five" onclick="utiAdd();" class="w3-btn w3-black">No</a>
+	<a href="#four" onclick="stiAdd();" class="w3-btn w3-black">Yes</a> <!--Will take user to question four-->
+	<a href="#five" onclick="utiAdd();" class="w3-btn w3-black">No</a> <!--If a user clicks this it will skip question four-->
 </div>
 
 	</div>
 
-<div class="page" id="four">
+<div class="page" id="four"> <!--page 4: Question 4-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 4</h1>
 
@@ -193,7 +193,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 
-<div class="page" id="five">
+<div class="page" id="five"> <!--page 5: question 5-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 5</h1>
 
@@ -207,7 +207,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 
-<div class="page" id="six">
+<div class="page" id="six"> <!--Page 6: Question 6-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 6</h1>
 
@@ -221,7 +221,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 
-<div class="page" id="seven">
+<div class="page" id="seven"> <!--Page 7: Question 7-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 7</h1>
 
@@ -235,7 +235,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 
-<div class="page" id="eight">
+<div class="page" id="eight"> <!--page8: question 8-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 8</h1>
 
@@ -249,7 +249,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 
-<div class="page" id="nine">
+<div class="page" id="nine"> <!--page 9: question 9-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 9</h1>
 
@@ -263,7 +263,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 	</div>
 
-<div class="page" id="ten"> 
+<div class="page" id="ten"> <!--page 10: question 10-->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 10</h1>
 
@@ -287,7 +287,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<body onload="displayResults()">
 	<p id="resultMessage"></p> <!-- This will display the result message-->
 		<div class="resizable-container">
-    			<img src="istockphoto-1160789021-612x612.jpg" alt="Doctor's Office">
+    			<img src="istockphoto-1160789021-612x612.jpg" alt="Doctor's Office"> <!--my image thats being display-->
 		
 </div>
 
